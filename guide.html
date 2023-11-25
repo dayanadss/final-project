@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7005958378.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sanad Healthcare</title>
+   
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-white">SANAD Healthcare</h1>
+                    <a href="contact.html" class="btn btn-itd btn-lg text-uppercase">Contact</a>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <div class="navbar">
+        <img src="img/logo.png" class="logo">
+        <ul>
+            <li><a href="main.html">Main</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+          </ul>
+    </div>
+    <h2 class="text-center text-uppercase color1 mb-5">Nutritiology Guide</h2>
+<div class="container py-5">
+<div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+    <div class="col">
+        <div class="card">
+            <img src="img/pizza.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza (per slice)</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 285</li>
+              <li class="list-group-item">Fat: 10.4g</li>
+              <li class="list-group-item">Sugars: 3.8g</li>
+              <li class="list-group-item">Carbs: 35.7g</li>
+            </ul>
+          </div>   
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="img/burger.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 418</li>
+              <li class="list-group-item">Fat: 20.9g</li>
+              <li class="list-group-item">Sugars: 4.4g</li>
+              <li class="list-group-item">Carbs: 30.3g</li>
+            </ul>
+          </div>   
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="img/hotdog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HotDog</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 314</li>
+              <li class="list-group-item">Fat: 18.6g</li>
+              <li class="list-group-item">Sugars: 4g</li>
+              <li class="list-group-item">Carbs: 13g</li>
+            </ul>
+          </div>   
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="img/donut.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Donut</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 269</li>
+              <li class="list-group-item">Fat: 15g</li>
+              <li class="list-group-item">Sugars: 15g</li>
+              <li class="list-group-item">Carbs: 31g</li>
+            </ul>
+          </div>   
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="img/fries.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">French Fries (per100g)</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 196</li>
+              <li class="list-group-item">Fat: 13.1g</li>
+              <li class="list-group-item">Sugars: 1.3g</li>
+              <li class="list-group-item">Carbs: 1.5g</li>
+            </ul>
+          </div>   
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="img/chips.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chips</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Calories: 130</li>
+              <li class="list-group-item">Fat: 7g</li>
+              <li class="list-group-item">Sugars: 0.5g</li>
+              <li class="list-group-item">Carbs: 0.8g</li>
+            </ul>
+          </div>   
+    </div>
+</div>
+
+</div>
+<section>
+<div class="calculator-container">
+    <h2>BMI Calculator</h2>
+    
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" placeholder="Enter height in cm" required><br><br>
+    
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" placeholder="Enter weight in kg" required> <br><br>
+    
+    <button onclick="calculateBMI()">Calculate BMI</button><br><br>
+    
+    <div id="result"></div>
+  </div>
+</section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href=""target="_blank" class="btn btn-outline-light"><i class="fa-brands fa-whatsapp" style="color: #16df3e;"></i></a>
+                    <a href=""target="_blank" class="btn btn-outline-light"><i class="fa-brands fa-instagram" style="color: #df4be2;"></i></a>
+                    <a href=""target="_blank" class="btn btn-outline-light"><i class="fa-solid fa-phone-volume fa-bounce" style="color: #2574bd;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.calculator-container').onclick=function(){
+            this.style.backgroundColor='#5ebcc5';
+        }
+
+        function calculateBMI() {
+          // Get input 
+          var height = parseFloat(document.getElementById('height').value);
+          var weight = parseFloat(document.getElementById('weight').value);
+      
+          // Check if inputs are valid 
+          if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
+            document.getElementById('result').innerHTML = 'Please enter valid height and weight.';
+            return;
+          }
+      
+          // Calculate BMI
+          var bmi = weight / ((height / 100) * (height / 100));
+      
+          // Classify BMI
+          var classification = getBMIClassification(bmi);
+      
+          // Display  result
+          document.getElementById('result').innerHTML = `Your BMI is: ${bmi.toFixed(2)} (${classification})`;
+        }
+      
+        function getBMIClassification(bmi) {
+          if (bmi < 18.5) {
+            return 'Underweight';
+          } else if (bmi >= 18.5 && bmi < 24.9) {
+            return 'Normal weight';
+          } else if (bmi >= 25 && bmi < 29.9) {
+            return 'Overweight';
+          } else {
+            return 'Obese';
+          }
+        }
+
+        document.getElementById('result').addEventListener('click', function() {
+    alert('If your results are not normal, you can undergo a full examination');
+  });
+
+  document.getElementById('result').addEventListener('mouseover', function() {
+    console.log('Mouse over result!');
+  });
+
+  document.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      calculateBMI();
+    }
+  });
+         </script>      
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
